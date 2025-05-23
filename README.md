@@ -60,7 +60,7 @@ During training, we encountered overfitting and difficulty in generalizing acros
  
 One of the main challenges was that the majority of our earlier CNNs had difficulty getting over a validation accuracy of 50%. To mitigate this, learning rate scheduling and a lower learning rate were introduced. Additionally, it was found that our current model performed well at over ~8 million parameters. Overfitting also was a concern in the training process, which was addressed by setting increasing dropout layers to balance training efficiency and generalization with the greater number of convolutional layers. Ultimately, our CNN reached an accuracy of ~68.75% after all the improvements.
 
-# Transformmer Model
+# Transformer Model
 ## Initial Implementation
 Similar to the CNN, our transformer model used the (6,7,2) board representation, ensuring that the model could effectively process Connect 4 board states. The goal was to leverage self-attention mechanisms to capture strategic relationships between board positions, which traditional convolutional networks might struggle with.
 ## Architecture
