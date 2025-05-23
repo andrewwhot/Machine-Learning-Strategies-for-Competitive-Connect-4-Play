@@ -1,5 +1,4 @@
 # Team Members
-| - | - | - | - |
 | Neha Boinapalli | Vishwa Patel | Andrew White | Sonali Hornick |
 | - | - | - | - |
 
